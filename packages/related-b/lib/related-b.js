@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = relatedB;
 
 function relatedB() {
-    // TODO
+  console.log("b");
 }
