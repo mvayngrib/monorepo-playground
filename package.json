@@ -32,6 +32,11 @@
     "branches": [
       "master"
     ],
-    "repositoryUrl": "https://github.com/mvayngrib/monorepo-playground"
+    "repositoryUrl": "https://github.com/mvayngrib/monorepo-playground",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm"
+    ]
   }
 }
