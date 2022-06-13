@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "localnpm": "docker run -d --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio"
+    "localnpm": "docker run -d --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio",
+    "changeset": "changeset add --open"
   },
   "keywords": [],
   "author": "",
