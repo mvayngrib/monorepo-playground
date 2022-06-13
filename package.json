@@ -15,6 +15,7 @@
     "registry": "http://localhost:4873"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.23.0",
     "lerna": "^5.1.2"
   },
   "workspaces": [
