@@ -1,0 +1,23 @@
+{
+  "name": "monorepo-playground",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "localnpm": "docker run -d --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "devDependencies": {
+    "lerna": "^5.1.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
