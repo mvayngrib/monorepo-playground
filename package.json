@@ -24,5 +24,11 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "release": {
+    "extends": "semantic-release-monorepo",
+    "branches": [
+      "master"
+    ]
+  }
 }
