@@ -9,7 +9,7 @@
     "localnpm": "docker run -d --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio",
     "changeset": "changeset add --open",
     "publish": "lerna publish --no-push",
-    "release": "lerna exec --concurrency 1 -- semantic-release -e semantic-release-monorepo --tag-format='${LERNA_PACKAGE_NAME}-v\\${version}'",
+    "release": "lerna exec --concurrency 1 -- semantic-release -e semantic-release-monorepo --tag-format='${LERNA_PACKAGE_NAME}-v\\${version}' --no-ci",
     "release:dry-run": "yarn release --dry-run"
   },
   "keywords": [],
